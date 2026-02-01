@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "portfolio"
+    label: "📷 作品集"
+    folder: "content/portfolio"
+    create: true
+    slug: "{{id}}"
+    fields:
+      - { label: "ID", name: "id", widget: "string", hint: "英文标识，如 nature" }
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "英文标题", name: "subtitle", widget: "string" }
+      - { label: "描述", name: "description", widget: "text" }
+      - { label: "排序偏移", name: "offset", widget: "number", default: 0, hint: "0, 60, 120" }
+      - label: "图片列表"
+        name: "images"
+        widget: "list"
+        field: { label: "图片", name: "image", widget: "image" }
+
+  - name: "about"
+    label: "👤 关于我"
+    files:
+      - file: "content/about.json"
+        label: "个人信息"
+        fields:
+          - { label: "名字", name: "name", widget: "string" }
+          - { label: "副标题", name: "tagline", widget: "string" }
+          - { label: "个人简介", name: "bio", widget: "markdown" }
+          - { label: "头像", name: "avatar", widget: "image" }
+          - label: "统计数据"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "数值", name: "value", widget: "string" }
+              - { label: "标签", name: "label", widget: "string" }
+
+  - name: "contact"
+    label: "📧 联系方式"
+    files:
+      - file: "content/contact.json"
+        label: "联系信息"
+        fields:
+          - { label: "邮箱", name: "email", widget: "string" }
+          - { label: "QQ链接", name: "qq", widget: "string", required: false }
+          - { label: "微信链接", name: "wechat", widget: "string", required: false }
+          - { label: "Behance链接", name: "behance", widget: "string", required: false }
+
+  - name: "hero"
+    label: "🏠 首页"
+    files:
+      - file: "content/hero.json"
+        label: "首页内容"
+        fields:
+          - { label: "问候语", name: "greeting", widget: "string" }
+          - { label: "名字", name: "name", widget: "string" }
+          - { label: "副标题", name: "subtitle", widget: "string" }
+          - { label: "描述", name: "description", widget: "string" }
+          - { label: "按钮文字", name: "ctaText", widget: "string" }
+          - { label: "背景图片", name: "backgroundImage", widget: "image" }
