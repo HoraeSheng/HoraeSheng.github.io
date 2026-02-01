@@ -1,0 +1,15 @@
+{
+  "id": "life",
+  "title": "生活碎片",
+  "subtitle": "Life Moments",
+  "description": "记录日常生活中的温馨瞬间，在平凡中发现不平凡的美。",
+  "offset": 120,
+  "images": [
+    "/images/portfolio/life/life-1.jpg",
+    "/images/portfolio/life/life-2.jpg",
+    "/images/portfolio/life/life-3.jpg",
+    "/images/portfolio/life/life-4.jpg",
+    "/images/portfolio/life/life-5.jpg",
+    "/images/portfolio/life/life-6.jpg"
+  ]
+}

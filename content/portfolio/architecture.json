@@ -1,0 +1,15 @@
+{
+  "id": "architecture",
+  "title": "建筑光影",
+  "subtitle": "Light & Shadow",
+  "description": "用光影诠释建筑的艺术，在明暗交错中发现空间的美学。",
+  "offset": 60,
+  "images": [
+    "/images/portfolio/architecture/arch-1.jpg",
+    "/images/portfolio/architecture/arch-2.jpg",
+    "/images/portfolio/architecture/arch-3.jpg",
+    "/images/portfolio/architecture/arch-4.jpg",
+    "/images/portfolio/architecture/arch-5.jpg",
+    "/images/portfolio/architecture/arch-6.jpg"
+  ]
+}

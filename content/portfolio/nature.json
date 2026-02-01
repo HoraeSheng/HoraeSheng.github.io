@@ -1,0 +1,15 @@
+{
+  "id": "nature",
+  "title": "旷野遐想",
+  "subtitle": "Nature Dreams",
+  "description": "走进自然的怀抱，捕捉山川湖海的壮丽与宁静，感受大地的呼吸。",
+  "offset": 0,
+  "images": [
+    "/images/portfolio/nature/nature-1.jpg",
+    "/images/portfolio/nature/nature-2.jpg",
+    "/images/portfolio/nature/nature-3.jpg",
+    "/images/portfolio/nature/nature-4.jpg",
+    "/images/portfolio/nature/nature-5.jpg",
+    "/images/portfolio/nature/nature-6.jpg"
+  ]
+}
