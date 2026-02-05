@@ -5,11 +5,11 @@
   "description": "记录日常生活中的温馨瞬间，在平凡中发现不平凡的美。",
   "offset": 120,
   "images": [
-    {"/images/portfolio/life/life-1.jpg", "caption": "日月贝前的红旗飘飘" },
-    {"/images/portfolio/life/life-2.jpg", "caption": "津味年味" },
-    {"/images/portfolio/life/life-3.jpg", "caption": "沪式街头打招呼" },
-    {"/images/portfolio/life/life-4.jpg", "caption": "故宫内的小松鼠" },
-    {"/images/portfolio/life/life-5.jpg", "caption": "看我天天向上" },
-    {"/images/portfolio/life/life-6.jpg" "caption": "历史的年轮" }
+    {"src":"/images/portfolio/life/life-1.jpg", "caption": "日月贝前的红旗飘飘" },
+    {"src":"/images/portfolio/life/life-2.jpg", "caption": "津味年味" },
+    {"src":"/images/portfolio/life/life-3.jpg", "caption": "沪式街头打招呼" },
+    {"src":"/images/portfolio/life/life-4.jpg", "caption": "故宫内的小松鼠" },
+    {"src":"/images/portfolio/life/life-5.jpg", "caption": "看我天天向上" },
+    {"src":"/images/portfolio/life/life-6.jpg" "caption": "历史的年轮" }
   ]
 }
