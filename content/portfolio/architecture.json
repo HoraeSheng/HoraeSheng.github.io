@@ -5,11 +5,11 @@
   "description": "用光影诠释建筑的艺术，在明暗交错中发现空间的美学。",
   "offset": 60,
   "images": [
-    {"/images/portfolio/architecture/arch-1.jpg", "caption": "与蓝天融为一体" },
-    {"/images/portfolio/architecture/arch-2.jpg", "caption": "庄严带着可爱趣味" },
-    {"/images/portfolio/architecture/arch-3.jpg", "caption": "深秋的颜色" },
-    {"/images/portfolio/architecture/arch-4.jpg", "caption": "建筑一样暖人" },
-    {"/images/portfolio/architecture/arch-5.jpg", "caption": "故居一角" },
-    {"/images/portfolio/architecture/arch-6.jpg" "caption": "初春的生机" }
+    {"src":"/images/portfolio/architecture/arch-1.jpg", "caption": "与蓝天融为一体" },
+    {"src":"/images/portfolio/architecture/arch-2.jpg", "caption": "庄严带着可爱趣味" },
+    {"src":"/images/portfolio/architecture/arch-3.jpg", "caption": "深秋的颜色" },
+    {"src":"/images/portfolio/architecture/arch-4.jpg", "caption": "建筑一样暖人" },
+    {"src":"/images/portfolio/architecture/arch-5.jpg", "caption": "故居一角" },
+    {"src":"/images/portfolio/architecture/arch-6.jpg" "caption": "初春的生机" }
   ]
 }
