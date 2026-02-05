@@ -5,11 +5,11 @@
   "description": "走进自然的怀抱，捕捉山川湖海的壮丽与宁静，感受大地的呼吸。",
   "offset": 0,
   "images": [
-   { "/images/portfolio/nature/nature-1.jpg", "caption": "天坛公园的绿意盎然" },
-   { "/images/portfolio/nature/nature-2.jpg", "caption": "青海大柴旦的五彩斑斓" },
-   { "/images/portfolio/nature/nature-3.jpg", "caption": "青海湖的湖天一色" },
-   { "/images/portfolio/nature/nature-4.jpg", "caption": "威海的海与山峰" },
-   { "/images/portfolio/nature/nature-5.jpg", "caption": "伴随着夕阳难忘的徒步" },
-   { "/images/portfolio/nature/nature-6.jpg" "caption": "威海布鲁威斯号的某一刻" }
+   { "src":"/images/portfolio/nature/nature-1.jpg", "caption": "天坛公园的绿意盎然" },
+   { "src":"/images/portfolio/nature/nature-2.jpg", "caption": "青海大柴旦的五彩斑斓" },
+   { "src":"/images/portfolio/nature/nature-3.jpg", "caption": "青海湖的湖天一色" },
+   { "src":"/images/portfolio/nature/nature-4.jpg", "caption": "威海的海与山峰" },
+   {"src": "/images/portfolio/nature/nature-5.jpg", "caption": "伴随着夕阳难忘的徒步" },
+   {"src": "/images/portfolio/nature/nature-6.jpg" "caption": "威海布鲁威斯号的某一刻" }
   ]
 }
