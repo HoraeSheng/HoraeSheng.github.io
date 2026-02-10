@@ -105,6 +105,9 @@ const Portfolio = () => {
                       src={cover.src}
                       alt={project.title}
                       className="w-full h-full object-cover img-zoom"
+                      loading={index < 3 ? 'eager' : 'lazy'}
+                      decoding="async"
+                      fetchPriority={index === 0 ? 'high' : 'low'}
                     />
                   )}
 
@@ -166,6 +169,9 @@ const Portfolio = () => {
                           src={img.src}
                           alt={`${selectedProject.title} - ${idx + 1}`}
                           className="w-full h-full object-cover transition-transform duration-500 ease-out-expo group-hover:scale-110"
+                          loading="lazy"
+                          decoding="async"
+                          fetchPriority="low"
                         />
                       </div>
                     );
@@ -191,6 +197,9 @@ const Portfolio = () => {
                 src={selectedImage.src}
                 alt="Lightbox"
                 className="w-full h-auto max-h-[80vh] object-contain"
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
               />
 
               {selectedImage.caption && (

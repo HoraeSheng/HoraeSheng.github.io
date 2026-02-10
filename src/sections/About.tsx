@@ -48,6 +48,9 @@ const About = () => {
                 src={aboutData.avatar}
                 alt={`${aboutData.name} - Photographer`}
                 className="w-full h-full object-cover transition-transform duration-700 ease-out-expo group-hover:scale-105"
+                loading="lazy"
+                decoding="async"
+                fetchPriority="low"
               />
               <div className="absolute inset-4 border border-white/30 rounded pointer-events-none" />
             </div>
