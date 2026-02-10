@@ -18,12 +18,12 @@ collections:
       - { label: "描述", name: "description", widget: "text" }
       - { label: "排序偏移", name: "offset", widget: "number", default: 0, hint: "0, 60, 120" }
       - label: "图片列表"
-       name: "images"
-       widget: "list"
-       summary: "{{fields.caption}}"
-       fields:
-         - { label: "图片", name: "src", widget: "image" }
-         - { label: "描述", name: "caption", widget: "string", required: false }
+        name: "images"
+        widget: "list"
+        summary: "{{fields.caption}}"
+        fields:
+          - { label: "图片", name: "src", widget: "image" }
+          - { label: "描述", name: "caption", widget: "string", required: false }
 
 
   - name: "about"
