@@ -51,6 +51,9 @@ const Hero = () => {
           src={heroData.backgroundImage}
           alt="Hero background"
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/20 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent" />
